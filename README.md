@@ -16,7 +16,7 @@ curl -fsSL https://utils.bald.engineer/<script-name>.sh | sh
 
 ### Curl Flags Explained
 
-- `-f` — Fail silently on HTTP errors
+- `-f` — Fail (exit with error) on HTTP errors (4xx/5xx status codes)
 - `-s` — Silent mode (no progress meter)
 - `-S` — Show errors when silent mode is enabled
 - `-L` — Follow redirects
