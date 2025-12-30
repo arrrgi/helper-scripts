@@ -1,17 +1,19 @@
 # helper-scripts
 
-A collection of useful POSIX-compliant shell scripts accessible directly via cURL.
+A collection of useful POSIX-compliant shell scripts accessible directly via
+cURL.
 
 ## Overview
 
-This repository contains helper shell scripts that are served via GitHub Pages at **[utils.bald.engineer](https://utils.bald.engineer)**.
+This repository contains helper shell scripts that are served via GitHub Pages
+at **[utils.bald.engineer](https://utils.bald.engineer)**.
 
 ## Usage
 
 Scripts can be executed directly using the `curl` and pipe method:
 
 ```sh
-curl -fsSL https://utils.bald.engineer/<script-name>.sh | sh
+curl -fsSL https://utils.bald.engineer/scripts/<script-name>.sh | sh
 ```
 
 ### Curl Flags Explained
@@ -23,7 +25,8 @@ curl -fsSL https://utils.bald.engineer/<script-name>.sh | sh
 
 ## Compatibility
 
-Scripts in this repository are designed to be **POSIX-compliant** for maximum compatibility across different Unix-like systems and shells.
+Scripts in this repository are designed to be **POSIX-compliant** for maximum
+compatibility across different Unix-like systems and shells.
 
 ## License
 
